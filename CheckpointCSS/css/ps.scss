@@ -1,0 +1,31 @@
+@import 'index';
+ body{
+    background-color: rgb(160, 21, 62);
+    background-image: url("../src/bg/jjk");
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ footer{
+    position: relative;
+    bottom: 0px;
+ }
+ .bgimg{
+    position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-image: url('../src/bg/jjkbg.jpg'); 
+     background-size: cover;
+     background-position: center;
+     filter: blur(10px); 
+     z-index: -1;  
+}
+
+.psimg{
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 1), 0 0 60px rgba(255, 255, 255, 0.7);
+    position: relative;
+    left: 14%;
+}
